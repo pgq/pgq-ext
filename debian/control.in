@@ -1,0 +1,15 @@
+Source: pgq-ext
+Section: database
+Priority: extra
+Maintainer: Marko Kreen <markokr@gmail.com>
+Build-Depends: debhelper (>= 9), python, postgresql-server-dev-all
+Standards-Version: 3.9.1
+Homepage: https://github.io/pgq
+
+Package: postgresql-PGVERSION-pgq-ext
+Architecture: all
+Depends: ${misc:Depends}, postgresql-PGVERSION
+Conflicts: postgresql-PGVERSION-pgq3
+Description: Queue completion tracking for PgQ consumers
+ Tracking framework for consumers to be used in target database.
+

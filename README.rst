@@ -42,11 +42,3 @@ returns:
   false - event is done already
 
 
-Fastvacuum
-----------
-
-pgq.ext.completed_batch
-pgq.ext.completed_event
-pgq.ext.completed_tick
-pgq.ext.partial_batch
-
