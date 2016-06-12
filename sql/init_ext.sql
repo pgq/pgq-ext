@@ -1,5 +1,5 @@
 
-\set ECHO off
+\set ECHO none
 \i structure/install.sql
 \set ECHO all
 create extension pgq_ext from 'unpackaged';

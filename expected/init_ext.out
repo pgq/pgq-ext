@@ -1,4 +1,4 @@
-\set ECHO off
+\set ECHO none
  upgrade_schema 
 ----------------
               4
