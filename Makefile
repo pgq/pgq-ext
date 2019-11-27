@@ -22,3 +22,8 @@ deb:
 
 debclean:
 	make -f debian/rules debclean
+
+TARNAME = $(EXTENSION)-$(EXT_VERSION)
+dist:
+	git archive --format=tar.gz --prefix=$(TARNAME)/ -o $(TARNAME).tar.gz HEAD
+
