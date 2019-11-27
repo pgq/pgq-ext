@@ -1,3 +1,9 @@
+pgq-ext (3.1.1-1) unstable; urgency=low
+
+  * v3.1.1
+
+ -- Marko Kreen <markokr@gmail.com>  Wed, 27 Nov 2019 15:32:08 +0200
+
 pgq-ext (3.1-1) unstable; urgency=low
 
   * v3.1
