@@ -25,3 +25,8 @@ pgq_ext.sql
 pgq_ext.upgrade.sql
 
 results/
+
+docs/Data
+docs/html
+docs/sql
+
