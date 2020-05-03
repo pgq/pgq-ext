@@ -1,8 +1,8 @@
 
 EXTENSION = pgq_ext
 
-EXT_VERSION = 3.1.1
-EXT_OLD_VERSIONS = 3.1
+EXT_VERSION = 3.1.2
+EXT_OLD_VERSIONS = 3.1 3.1.1
 
 Contrib_regress = init_noext test_pgq_ext test_upgrade
 Extension_regress = init_ext test_pgq_ext
