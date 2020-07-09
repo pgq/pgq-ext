@@ -51,7 +51,10 @@ jobs:
         run: make
 
       - name: "Install"
-        run: sudo -nH bash -c "PATH='${PATH}' make install"
+        run: |
+          git clone -q https://github.com/pgq/pgq; make -C pgq
+          sudo -nH bash -c "PATH='${PATH}' make install -C pgq"
+          sudo -nH bash -c "PATH='${PATH}' make install"
 
       - name: "StartDB"
         run: |
